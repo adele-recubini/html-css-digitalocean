@@ -9,3 +9,14 @@
   padding:0 5px;
   line-height: 100px;
 }
+
+.bg{
+  background: url("../img/sfondo.jpg");
+  height: 400px;
+  background-size: cover;
+}
+
+h1, h3{
+  text-align: left;
+  color: white;
+}
