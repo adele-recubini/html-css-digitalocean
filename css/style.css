@@ -16,7 +16,34 @@
   background-size: cover;
 }
 
-h1, h3{
+.what{
   text-align: left;
   color: white;
 }
+.credenziali{
+ height: 600px;
+ width: 400px;
+ border: 1px solid black;
+ text-align: center;
+ margin-top: 10px;
+}
+
+/* form */
+
+.form{
+  width: 100px;
+
+}
+
+.my-form ::placeholder{
+  color:grey;
+  font-size: 15px;
+}
+.form-control{
+  border:none;
+  box-shadow: none;
+}
+.form-control{
+  border-bottom: 1px solid grey;
+  border-radius: 0px;
+  }
