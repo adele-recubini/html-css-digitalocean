@@ -10,9 +10,10 @@
   line-height: 100px;
 }
 
+/* SFONDO CON ROW E COLONNE2 */
 .bg{
   background: url("../img/sfondo.jpg");
-  height: 400px;
+  height: 500px;
   background-size: cover;
 }
 
@@ -21,29 +22,45 @@
   color: white;
 }
 .credenziali{
- height: 600px;
- width: 400px;
+ height: 420px;
+ /* width: 350px; */
  border: 1px solid black;
  text-align: center;
  margin-top: 10px;
+ background-color: white;
 }
 
 /* form */
 
-.form{
-  width: 100px;
-
-}
-
 .my-form ::placeholder{
   color:grey;
-  font-size: 15px;
+  font-size: 10px;
 }
-.form-control{
-  border:none;
-  box-shadow: none;
-}
+
 .form-control{
   border-bottom: 1px solid grey;
   border-radius: 0px;
   }
+  .my-bottom{
+  font-size: 15px;
+  }
+  /* fine sfondo con row e colonne */
+
+/* sfondo grigio con la lista dei loghi */
+
+.log{
+  height: 20px;
+}
+.loghi li{
+  display: inline-block;
+  padding: 10px 5px;
+}
+h4{
+  color:gray;
+}
+.my-br2{
+  background-color: lightgray;
+}
+
+
+/* sfondo grigio con la lista dei loghi  */
