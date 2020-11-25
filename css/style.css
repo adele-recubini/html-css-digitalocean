@@ -1,42 +1,10 @@
 .navbar{
-  margin-bottom: 0;
-  border:none;
-  border-radius:0;
-  margin:0 auto;
+  height: 100px;
 }
-.navbar-default, .bl-navbar{
- background-color:white;
-}
-
-.navbar-default .navbar-nav>.active>a{
-background-color:white;
-
-}
-.bl-navbar {
-  background-color: white;
-
-}
-
-.bl-navbar .navbar-brand, .bl-navbar .navbar-nav>li>a {
- color:black;
-}
-
-.bl-navbar .navbar-brand {
-  font-size:24px;
-  font-weight: bolder;
-}
-
-.bl-navbar .navbar-nav>li>a {
-  font-weight: bolder;
-}
-
-.immagini{
+.logo{
   height: 40px;
 }
-.login{
-  height: 10px;
-  width: 50px;
+.navbar li{
+  display: inline-block;
+  padding:0 10px;
 }
-
-
-@
