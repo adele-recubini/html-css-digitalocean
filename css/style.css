@@ -13,7 +13,7 @@
 /* SFONDO CON ROW E COLONNE2 */
 .bg{
   background: url("../img/sfondo.jpg");
-  height: 500px;
+  height: 700px;
   background-size: cover;
 }
 
@@ -22,7 +22,7 @@
   color: white;
 }
 .credenziali{
- height: 420px;
+ height: 400px;
  /* width: 350px; */
  border: 1px solid black;
  text-align: center;
@@ -49,11 +49,11 @@
 /* sfondo grigio con la lista dei loghi */
 
 .log{
-  height: 20px;
+  height: 25px;
 }
 .loghi li{
   display: inline-block;
-  padding: 10px 5px;
+  padding: 5px;
 }
 h4{
   color:gray;
@@ -62,5 +62,13 @@ h4{
   background-color: lightgray;
 }
 
+/* fine sfondo grigio con la lista dei loghi  */
 
-/* sfondo grigio con la lista dei loghi  */
+
+/* griglia a 5 colonne */
+.elenco{
+  border-left: 1px solid black;
+  margin-top: 25px;
+}
+
+/* fine  griglia a 5 colonne */
