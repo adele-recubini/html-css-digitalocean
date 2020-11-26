@@ -82,9 +82,9 @@ h4{
 
 
 /* griglia a 5 colonne */
-.elenco{
-  border-left: 1px solid black;
-  margin-top: 25px;
+.elenco  ul {
+list-style-type: none;
+border-left: 1px solid black;
 }
 
 /* fine  griglia a 5 colonne */
