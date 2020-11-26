@@ -88,3 +88,11 @@ border-left: 1px solid black;
 }
 
 /* fine  griglia a 5 colonne */
+
+/* seconda immagine centrale con sfondo grigio */
+.droplets{
+  height: 300px;
+}
+
+
+/* fine seconda immagine centrale con sfondo grigio */
