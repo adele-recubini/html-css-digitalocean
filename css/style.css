@@ -20,12 +20,14 @@
   float:right;
 }
 
-
+.txt-right {
+  text-align: right;
+}
 /* SFONDO CON ROW E COLONNE2 */
-.bg{
+.my-bg{
   background: url("../img/sfondo.jpg");
-  height: 700px;
   background-size: cover;
+
 }
 
 .what{
@@ -33,12 +35,13 @@
   color: white;
 }
 .credenziali{
- height: 400px;
+
  /* width: 350px; */
- border: 1px solid black;
+
  text-align: center;
  margin-top: 10px;
  background-color: white;
+
 }
 
 /* form */
@@ -60,17 +63,19 @@
 /* sfondo grigio con la lista dei loghi */
 
 .log{
-  height: 25px;
+  height: 30px;
 }
 .loghi li{
   display: inline-block;
-  padding: 5px;
+
 }
 h4{
   color:gray;
 }
-.my-br2{
+.my-bg2{
   background-color: lightgray;
+  vertical-align: middle;
+
 }
 
 /* fine sfondo grigio con la lista dei loghi  */
