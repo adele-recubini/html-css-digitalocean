@@ -93,6 +93,13 @@ border-left: 1px solid black;
 .droplets{
   height: 300px;
 }
-
-
+/* inserire una medi query per xs */
 /* fine seconda immagine centrale con sfondo grigio */
+
+.balls i{
+  padding: 0 10px;
+}
+i:hover {
+color: yellow;
+
+}
