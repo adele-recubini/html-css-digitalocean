@@ -28,6 +28,7 @@
 }
 .hamburger{
   float:right;
+
 }
 
 .txt-right {
@@ -150,7 +151,6 @@ color: yellow;
   background-color: lightgray
 }
 .container-special{
-
   margin-top: 50px;
   background-color: #fff;
   vertical-align: middle;
@@ -160,9 +160,18 @@ color: yellow;
   padding: 30px;
   width: 70%;
 }
-
-
-
-
-
 /* fine carousel */
+
+/* media quesry */
+
+@media screen and (max-width: 661px) {
+  .droplets {
+      height: 200px;
+  }
+}
+
+@media screen and (max-width: 661px) {
+.immagine-carousel {
+    height: 30px;
+    text-align: center;
+}
