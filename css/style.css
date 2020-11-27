@@ -150,15 +150,18 @@ color: yellow;
   background-color: lightgray
 }
 .container-special{
-  background-color: white;
+
   margin-top: 50px;
-}
-
-
-.bracket-left, .bracket-right {
-  width: 10px;
+  background-color: #fff;
+  vertical-align: middle;
   display: inline-block;
+  height: 100%;
+  margin: 0 25px;
+  padding: 30px;
+  width: 70%;
 }
+
+
 
 
 
