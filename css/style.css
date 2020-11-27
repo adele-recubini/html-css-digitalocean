@@ -48,7 +48,7 @@
 .credenziali{
 
  /* width: 350px; */
-
+margin-bottom: 10px;
  text-align: center;
  margin-top: 10px;
  background-color: white;
@@ -173,5 +173,17 @@ color: yellow;
 @media screen and (max-width: 661px) {
 .immagine-carousel {
     height: 30px;
-    text-align: center;
+  }
+}
+
+@media screen and (max-width: 661px) {
+.my-margin {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 778px) and  (min-width: 661px) {
+.my-link {
+  font-size: 11px;
+  }
 }
