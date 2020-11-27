@@ -118,28 +118,48 @@ color: yellow;
 .liste li{
   display: inline-block;
   color: white;
-  padding: 5px 10px;
+ padding:10px 5px;
 }
-.my-link a{
+
+.liste{
+  border-bottom: 1px solid white;
+}
+.my-link{
   float:right;
 }
 
-
-.txt-left {
-  text-align: left;
+/* fare una media quesry solo per mobile che da un margin top di 50 */
+.my-margin-top{
+  margin-top: 50px;
 }
 
-.txt-right{
-  text-align:right;
-}
-.txt-center{
-  text-align: center;
-}
+
 .my-bg3{
   background-color:lightblue;
-}
-.border{
-  border-bottom: 1px solid white;
+
 }
 
 /* fine tabella */
+
+/* carousel */
+.immagine-carousel{
+  height: 50px;
+  text-align: center;
+}
+.my-bg4{
+  background-color: lightgray
+}
+.container-special{
+  background-color: white;
+  margin-top: 50px;
+}
+
+
+.bracket-left, .bracket-right {
+  width: 10px;
+  display: inline-block;
+}
+
+
+
+/* fine carousel */
