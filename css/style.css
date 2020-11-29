@@ -74,10 +74,11 @@ margin-bottom: 10px;
 /* sfondo grigio con la lista dei loghi */
 
 .log{
-  height: 30px;
+  height: 60px;
 }
 .loghi li{
   display: inline-block;
+  padding:10px 5px;
 
 }
 h4{
