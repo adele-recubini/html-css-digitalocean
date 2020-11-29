@@ -178,6 +178,9 @@ color: yellow;
 .footer li{
   list-style-type: none;
 }
+.fish{
+  float:right;
+}
 /* end footer */
 
 /* media quesry */
@@ -203,5 +206,10 @@ color: yellow;
 @media screen and (max-width: 778px) and  (min-width: 661px) {
 .my-link {
   font-size: 11px;
+  }
+}
+@media screen and (max-width: 661px) {
+  .fish {
+      float:left;
   }
 }
