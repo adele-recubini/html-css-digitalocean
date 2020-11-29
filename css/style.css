@@ -162,6 +162,24 @@ color: yellow;
 }
 /* fine carousel */
 
+
+/* sezione sopra il footer */
+.my-bg5{
+  background-color: #002DA8;
+
+}
+/* end sezione sopra il footer */
+
+/* footer */
+.my-bg6{
+  /* background-color: #031D4E; */
+}
+
+.footer li{
+  list-style-type: none;
+}
+/* end footer */
+
 /* media quesry */
 
 @media screen and (max-width: 661px) {
