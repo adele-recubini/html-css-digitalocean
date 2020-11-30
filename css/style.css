@@ -175,12 +175,25 @@ color: yellow;
 .my-bg6{
   /* background-color: #031D4E; */
 }
+.my-margin{
+  margin-top:10px;
+}
 
 .footer li{
   list-style-type: none;
 }
+
 .fish{
   float:right;
+}
+
+.chat{
+ padding:0 40px;
+  float:right;
+}
+.chat p{
+  margin-top:50px;
+
 }
 /* end footer */
 
@@ -208,9 +221,19 @@ color: yellow;
 .my-link {
   font-size: 11px;
   }
+  .chat p{
+    margin-top:0;
+  }
 }
 @media screen and (max-width: 661px) {
-  .fish {
-      float:left;
+  .fish{
+    float:left;
+  }
+  .chat p{
+    margin-top:80px;
+    margin-left:-350px;
+  }
+  ul{
+    padding-left:0
   }
 }
