@@ -243,6 +243,7 @@ color: yellow;
   margin-top:10px;
 }
 
+
 .social li{
   display: inline-block;
 }
@@ -333,6 +334,9 @@ position: fixed;
  }
  .elenco ul{
    padding-left:7px;
+ }
+ ul {
+   padding-left:0
  }
 
 }
