@@ -13,16 +13,9 @@
 .my-color-button{
   color:#579AFF;
 }
-.before{
-  border:1px solid black;
-  display: inline-block;
-}
-.my-google-button{
-  display: inline-block;
-}
-.my-google-img{
-  display: inline-block;
-}
+
+
+
 h2{
   font-weight:bold;
 }
@@ -30,7 +23,9 @@ h2{
   line-height: 30px;
   color:#5C6A88;
 }
-
+.my-icon-google{
+  margin-left: 0;
+}
 
 .navbar{
   height: 100px;
