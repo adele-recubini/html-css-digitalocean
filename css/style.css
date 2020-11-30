@@ -4,7 +4,31 @@
   font-size: 25px;
   color:white;
   text-align: center;
+}
 
+.my-color-text{
+  color: #4892FF;
+  font-weight: bold;
+}
+.my-color-button{
+  color:#579AFF;
+}
+.before{
+  border:1px solid black;
+  display: inline-block;
+}
+.my-google-button{
+  display: inline-block;
+}
+.my-google-img{
+  display: inline-block;
+}
+h2{
+  font-weight:bold;
+}
+ .my-style-text{
+  line-height: 30px;
+  color:#5C6A88;
 }
 
 
@@ -28,6 +52,7 @@
 }
 .hamburger{
   float:right;
+  color: #4892FF;
 
 }
 
@@ -97,6 +122,18 @@ h4{
 .elenco  ul {
 list-style-type: none;
 border-left: 1px solid black;
+color: #75809A;
+}
+.elenco li{
+line-height: 25px;
+}
+h5{
+  font-size: 30px;
+  color: black;
+}
+.testi p{
+  font-size: 20px;
+  color:#8D97AC;
 }
 
 /* fine  griglia a 5 colonne */
@@ -105,11 +142,16 @@ border-left: 1px solid black;
 .droplets{
   height: 300px;
 }
+h3{
+color:#8691A9;
+line-height: 30px;
+}
 /* inserire una medi query per xs */
 /* fine seconda immagine centrale con sfondo grigio */
 
 .balls i{
-  padding: 0 10px;
+  padding: 0 5px;
+  margin-bottom: 25px;
 }
 i:hover {
 color: yellow;
@@ -128,6 +170,10 @@ color: yellow;
 }
 .my-link{
   float:right;
+
+}
+.my-link a{
+  color: #00A7CA;
 }
 
 /* fare una media quesry solo per mobile che da un margin top di 50 */
@@ -137,7 +183,7 @@ color: yellow;
 
 
 .my-bg3{
-  background-color:lightblue;
+  background-color:#003AB7;
 
 }
 
@@ -161,19 +207,22 @@ color: yellow;
   padding: 30px;
   width: 70%;
 }
+
 /* fine carousel */
 
 
 /* sezione sopra il footer */
 .my-bg5{
-  background-color: #002DA8;
-
+  background-color:#0035AF;
+}
+.special-text{
+  color:blue;
 }
 /* end sezione sopra il footer */
 
 /* footer */
 .my-bg6{
-  /* background-color: #031D4E; */
+  background-color:#031C4E;
 }
 .my-margin{
   margin-top:10px;
@@ -181,19 +230,30 @@ color: yellow;
 
 .footer li{
   list-style-type: none;
+  color:#48597B;
+}
+.footer h3{
+  color: white;
+}
+.footer p{
+    color:#48597B;
 }
 
 .fish{
   float:right;
 }
+.chatbot{
+position: fixed;
+ bottom:0;
+}
 
 .chat{
  padding:0 40px;
   float:right;
+  background-color: white;
 }
 .chat p{
   margin-top:50px;
-
 }
 /* end footer */
 
@@ -224,16 +284,35 @@ color: yellow;
   .chat p{
     margin-top:0;
   }
+  ul{
+    padding-left:0;
+  }
 }
 @media screen and (max-width: 661px) {
   .fish{
-    float:left;
+    float:none;
+    display: block;
   }
-  .chat p{
-    margin-top:80px;
-    margin-left:-350px;
+  .chat {
+    float:none;
   }
+
   ul{
-    padding-left:0
+    padding-left:0;
   }
+  .elenco ul{
+    padding-left:7px;
+  }
+}
+
+@media screen and (min-width: 768px) and  (max-width: 1170px) {
+.chatbot {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+ }
+ .elenco ul{
+   padding-left:7px;
+ }
+
 }
